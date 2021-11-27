@@ -53,8 +53,17 @@ header {
 .container-delivery {
     text-align: center;
     align-self: center;
+    padding: 10px;
 }
-
+.footer {
+    align-self: center;
+    text-align: center;
+    padding-top: 30px;
+}
+.container-fluid {
+    text-align: center;
+    padding: 30px;
+}
 
 
 
