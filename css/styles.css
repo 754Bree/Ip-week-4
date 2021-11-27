@@ -14,7 +14,11 @@ header {
     padding-bottom: 50px;
     color: black;
 }
+.column1 {
+    background-image: url(https://github.com/754Bree/Ip-week-4/blob/master/Images/Column1-bg.jpg?raw=true) ;
+    height: fit-content;
 
+}
 
 
 
