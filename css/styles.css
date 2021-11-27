@@ -14,12 +14,46 @@ header {
     padding-bottom: 50px;
     color: black;
 }
-.column1 {
-    background-image: url(https://github.com/754Bree/Ip-week-4/blob/master/Images/Column1-bg.jpg?raw=true) ;
-    height: fit-content;
-
+.h2 {
+   text-align: center;
 }
-
+.row {
+    display: flex;
+     
+}
+ .column1 {
+    background-image: url(https://github.com/754Bree/Ip-week-4/blob/master/Images/Column1-bg.jpg?raw=true);
+    height: 460px;
+    width: fit-content;
+    vertical-align: middle;
+    color: whitesmoke;
+    border-style: double;
+    text-align: center;
+    
+ }
+ .column2 {
+    background-image: url(https://github.com/754Bree/Ip-week-4/blob/master/Images/Column2-bg.jpg?raw=true);
+    color: whitesmoke; 
+    height: fit-content; 
+    width: fit-content;
+    float: inline-end; 
+    border-style:double;
+    text-align: center;
+    
+}
+.column3 {
+    background-image: url(https://github.com/754Bree/Ip-week-4/blob/master/Images/Column3-bg.jpg?raw=true);
+    color: whitesmoke;
+    text-align: center;
+}
+.container-checkout {
+    text-align: center;
+    align-self: center;
+}
+.container-delivery {
+    text-align: center;
+    align-self: center;
+}
 
 
 
