@@ -2,7 +2,7 @@
 
 ## Description
 
-### Mojito's Pizza Palace is a page that enables you to order Pizza from Mojito's palace at the comfort of your home or workplace
+### Mojito's Pizza Palace is a page that enables you to order Pizza from Mojito's palace at the comfort of your home or workplace.
 
 ## Author : Briana Odhiambo
 
@@ -39,5 +39,14 @@ During my time creating this project, I encountered a couple of challanges some 
 
 1. Getting a hold of pictures to upload to the page was quite hectic.
 
+2. Getting names of different types of pizzas was also another.
+
+## Credits
+
+### I would like to thank <strong>MORINGA SCHOOL</strong> for providing guidelines to follow during the implementation of this project.<br>
+
+
+## LICENSE
+
+### This project is licensed by <strong>MIT</strong>.
  
-2.
