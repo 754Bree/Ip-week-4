@@ -6,12 +6,15 @@ body {
     padding-top: 10px;
     padding-bottom: 10px;
     word-spacing: 5px;
+    border-top: 2px;
+    border-radius: 10px;
+    border-color: gray;
     
 }
 
 header {
     background-image: url(https://github.com/754Bree/Ip-week-4/blob/master/Images/Pizza%201st%20Background%20picture.jpg?raw=true);
-    height: 300px;
+    height: 350px;
     text-align: center;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -99,7 +102,9 @@ form {
 .button {
     padding-top: 30px;
 }
-
+.contacts {
+    text-align: center;
+}
 
 
 

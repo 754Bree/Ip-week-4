@@ -100,10 +100,12 @@
         <p>Check placed order:</p>
         <p>Total Order Cost:</p>
         <h3>Payment method:<br></h3>
+        <input type="radio">
         <label class="btn1">Mpesa:
-          <input type="radio">
-        </label><br><label class="btn2">Cash on Delivery:
-          <input type="radio">
+        </label><br>
+        <p>M-pesa: Send Money to 0790407613</p>
+        <input type="radio">
+        <label class="btn2">Cash on Delivery:
         </label></p><br>
       </div>
     </div>
@@ -111,15 +113,12 @@
       <div class="adress">
         <h3>Delivery Details:</h3>
         <form action="action_page.php">
-
-         <p><label for="name">Name:</label>
-          <input type="text" placeholder="Name"><br>
-
-          <label for="contact">Telephone:</label>
-          <input type="number" placeholder="+254-"><br>
-
-          <label for="Location">Location:</label>
-          <textarea id="location" placeholder="Your location with nearest landmark to residence"></textarea></p>
+          <strong>Tel:</strong> <input type="number" name="telephone" id="tel" >
+          <br>
+          <strong>Location:</strong> <input type="text" name="Location" id="loc">
+          <br>
+          <strong>Resident Description:</strong> <input type="text" name="Residence Description" id="DR">
+          <br>
         </form>
         <div class="button">
           <button type="button" class="btn-success">Confirm</button>
@@ -127,8 +126,12 @@
       </div>
     </div>
     <div class="contacts">
+      <h2>Contacts</h2>
       <div id="phone-number">
-      <p>You can contact us via: Tel: +2547-90407613</p>
+      <p>You can contact us via:<br> Tel: +254-113714427</p>
+      </div>
+      <div class="email">
+        <p>Email us via:<br> <a href="mailto:brianaodhiambo754@gmail.com" target="_blank">brianaodhiambo754@gmail.com</a></p>
       </div>
     </div>
     <div class="footer">
