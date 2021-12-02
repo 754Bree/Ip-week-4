@@ -7,4 +7,5 @@
 ## Author : Briana Odhiambo
 
 ## Contact : 
+### Telephone : +254-790407613
 ### Email me via <a href="mailto:brianaodhiambo754@gmail.com">brianaodhiambo54@gmail.com</a>
