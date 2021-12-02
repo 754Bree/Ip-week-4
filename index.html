@@ -9,21 +9,23 @@
   </head>
   <body>
     <div class="navbar">
-      <a class="active" href="#Pizza-Locale">Pizza Locale</a>
-      <a href="#Pizza Esotica">Pizza Esotica</a>
-      <a href="#Checkout">Checkout</a>
-      <a href="#Contactus">Contact-Us</a>
+      <a class="active" href="#column1">Pizza Locale</a>
+      <a href="#column2">Pizza Esotica</a>
+      <a href="#checkout-section">Checkout</a>
+      <a href="#phone-number">Contact-Us</a>
     </div>
     <header>
       <img src="Images/Mojito-Logo.png" alt="A black crown">
       <h1>Welcome to<br> <strong>Mojito's Pizza Palace</strong>...</h1>
       <h2>A taste of heaven!</h2>
+      <button type="button" class="">Order Now!</button>
     </header>
     <div class="container-fluid">
       <h2>MENU</h2>
       <div class="row">
         <div class="column1">
           <h3>Pizza Locale</h3>
+          <h4>Small @ Ksh.400, Medium @ Ksh.600, Large @ Ksh.1200</h4>
           <p> - Hawian Pizza<br>(Toppings: Macon & Pineaple)</p>
           <p> - Boerwors<br>(Toppings: Minced beef, Tomatoes & Onions)</p>
           <p> - Periperi chicken<br>(Toppings:Spicy Periperi chicken)</p>
@@ -33,99 +35,65 @@
         </div>
         <div class="column2">
           <h3>Pizza Exotica</h3>
+          <h4>Small @ Ksh.500, Medium @ Ksh.700, Large @ Ksh.1500</h4>
           <p> - Neapolitan<br> 1. Pizza Marinara<br> 2. Pizza Margherita<br> 3. Pizza Margherita Extra<br>(Toppings: Mozzarella, Basil leaves, Oregano & Olive Oil)</p>
           <p> - Chicago<br>(Toppings:Ground Beef, Pepperoni, Mushrooms, Permasan Cheese, Sausage, Green peppers & Onions)</p>
           <p> - Newyork<br>(Toppings:Mozzella Cheese, Oregano, Red peppers, Permasan,Garlic)</p>
           <p> - Sicilian<br>(Toppings:Tomatoes, Anchovies, Onions & Herbs)</p>
-          <p> - St.Lois<br>(Toppings:Sweet potato sauce,Oregano)</p>
+          <p> - St.Lois<br>(Toppings:Sweet potato sauce,Oregano)</p><br>
           <h3><strong>NOTE:</strong> All pizza are subject to extra toppings with preference to the consumer at an extra cost.</h3>
         </div>
+      </div>
+      <div class="row">
         <div class="column3">
           <h3>Toppings @ Ksh.50</h3>
           <div class="col1">
             <ul>
-              <li>Pepperoni</li>
-              <li>Pineaple</li>
-              <li>Chicken</li>
-              <li>Sausage</li>
-              <li>Minced Beef</li>
-              <li>Tomatoes</li>
-              <li>Anchovies</li>
-              <li>Onions</li>
-              <li>Mozzella Cheese</li>
-              <li>Potato Sauce</li>
-            </ul>
-          </div>
-          <div class="col2">
-            <ul>
-              <li>Mushroom</li>
-              <li>Oregano</li>
-              <li>Permasan</li>
-              <li>Garlic</li>
-              <li>Red Peppers</li>
-              <li>Green Peppers</li>
-              <li>Jalapenos</li>
-              <li>Mayo</li>
-              <li>Macon</li>
-              <li>Basil leaves</li>
+              -Pepperoni
+              -Pineaple
+              -Chicken
+              -Sausage
+              -Minced Beef
+              -Tomatoes
+              -Anchovies
+              -Onions
+              -Mozzella Cheese
+              -Potato Sauce
+              -Mushroom
+              -Oregano
+              -Permasan
+              -Garlic
+              -Red Peppers
+              -Green Peppers
+              -Jalapenos
+              -Mayo
+              -Macon
+              -Basil leaves
             </ul>
           </div>
         </div>
       </div>
     </div>
     </div>
-    <div class="Order-placement">
-      <h3>Please place your order below:</h3>
-      <div class="pizza-type">
-        <div class="pizza-locale">
-          <h4>Pizza Locale</h4>
-          <label for="pl1">Hawian Pizza
-            <input type="checkbox">
-          </label>
-          <label for="pl2">Boerwors
-            <input type="checkbox">
-          </label>
-          <label for="pl3">Periperi Chicken
-            <input type="checkbox">
-          </label>
-          <label for="pl4">Chicken Tikka
-            <input type="checkbox">
-          </label>
-          <label for="pl5">Chicken & Mushroom
-            <input type="checkbox">
-          </label>
-          <label for="pl6">Veggie Tikka
-            <input type="checkbox">
-          </label>
-        </div>
-        <div class="pizza-exotia">
-          <h4>Pizza Exotica</h4>
-          <label for="pl1">(Neopolitan)Marinara
-            <input type="checkbox">
-          </label>
-          <label for="pl2">(Neapolitan)Margherita
-            <input type="checkbox">
-          </label>
-          <label for="pl3">(Neapolitan)Matgherita Extra
-            <input type="checkbox">
-          </label>
-          <label for="pl4">Chicago
-            <input type="checkbox">
-          </label>
-          <label for="pl5">Newyork
-            <input type="checkbox">
-          </label>
-          <label for="pl6">Sicilian
-            <input type="checkbox">
-          </label>
-          <label for="pl7">St.Lois
-            <input type="checkbox">
-          </label>
-
-
-        </div>
+    <div class="row2">
+      <div id="Crusts">
+        <h3>Crusts @ Ksh.100</h3>
+        <p>Stuffed Crust</p>
+        <p>Crispy</p>
+        <p>Glutten-free</p>
+        <h4>NOTE: Crusts may not varry on different pizza selections, <strong>ONLY</strong> pick one per pizza-type</h4>
       </div>
     </div>
+    <div class="order-placement">
+      <h2>Please place your orders below:</h2>
+      <label for="pizza-type">Pizza Locale
+        <input type="radio">
+      </label>
+      <label for="pizza-type">Pizza Exotica
+        <input type="radio">
+      </label>
+    </div>
+    
     <div class="container-checkout">
       <div id="checkout-section">
         <h2>Checkout</h2>
@@ -141,18 +109,26 @@
     </div>
     <div class="container-delivery">
       <div class="adress">
-        <h5>Delivery Details:</h5>
+        <h3>Delivery Details:</h3>
         <form action="action_page.php">
 
-          <label for="name">Name:</label>
+         <p><label for="name">Name:</label>
           <input type="text" placeholder="Name"><br>
 
           <label for="contact">Telephone:</label>
           <input type="number" placeholder="+254-"><br>
 
           <label for="Location">Location:</label>
-          <textarea id="location" placeholder="Your location with nearest landmark to residence"></textarea>
+          <textarea id="location" placeholder="Your location with nearest landmark to residence"></textarea></p>
         </form>
+        <div class="button">
+          <button type="button" class="btn-success">Confirm</button>
+        </div>
+      </div>
+    </div>
+    <div class="contacts">
+      <div id="phone-number">
+      <p>You can contact us via: Tel: +2547-90407613</p>
       </div>
     </div>
     <div class="footer">
