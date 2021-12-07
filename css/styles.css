@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     background-image: repeating-linear-gradient(goldenrod,grey);
 }
@@ -114,4 +115,127 @@ form {
 
 /*header {
     text-align: center;
+=======
+body {
+    background-image: repeating-linear-gradient(goldenrod,grey);
+}
+.navbar {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    word-spacing: 5px;
+    border-top: 2px;
+    border-radius: 10px;
+    border-color: gray;
+    
+}
+
+header {
+    background-image: url(https://github.com/754Bree/Ip-week-4/blob/master/Images/Pizza%201st%20Background%20picture.jpg?raw=true);
+    height: 350px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: black;
+    border-style: solid goldenrod;
+}
+.h2 {
+   text-align: center;
+}
+.row {
+    display: flex;
+     
+}
+ .column1 {
+    background-image: url(https://cdn.pixabay.com/photo/2020/03/21/02/26/pizza-4952508__340.jpg);
+    height: 630px;
+    width: fit-content;
+    color: goldenrod;
+    border-style: double;
+    text-align: center;
+    font-size: larger;
+    padding-right: 20px;
+    
+ }
+ .column2 {
+    background-image: url(https://cdn.pixabay.com/photo/2020/03/21/02/26/pizza-4952508__340.jpg);
+    color: goldenrod; 
+    height: 630px; 
+    width: fit-content;
+    float: inline-end; 
+    border-style:double;
+    text-align: center;
+    
+    
+}
+.column3 {
+    background-image: url(https://cdn.pixabay.com/photo/2019/12/08/06/52/basil-4680551__340.jpg);
+    color: goldenrod;
+    text-align: center;
+    font-size: larger;
+    padding-top: 50px;
+    background-size: contain;
+
+}
+
+.row2 {
+    background-image: url(https://cdn.pixabay.com/photo/2018/03/07/18/42/menu-3206749_960_720.jpg);
+    text-align: center;
+    color: goldenrod;
+    font-size: x-large;
+    font-weight: 300;
+}
+
+.container-checkout {
+    text-align: center;
+    align-self: center;
+}
+.container-delivery {
+    text-align: center;
+    align-self: center;
+    padding: 10px;
+}
+.footer {
+    align-self: center;
+    text-align: center;
+    padding-top: 30px;
+}
+.container-fluid {
+    text-align: center;
+    padding: 30px;
+}
+/*.pizza-type {
+    display: flex;
+    max-height: fit-content;
+    width: 200px;
+}*/
+.order-placement {
+    text-align: center;
+}
+form {
+    display: flex;
+    text-align: center;
+    word-spacing: 5px;
+}
+.button {
+    padding-top: 30px;
+}
+.contacts {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*header {
+    text-align: center;
+>>>>>>> b11575386c14c1baa8591ffc376c7124f99ccc01
 }*/
