@@ -1,106 +1,143 @@
-<<<<<<< HEAD
-body {
-    background-image: repeating-linear-gradient(goldenrod,grey);
-}
-.navbar {
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    word-spacing: 5px;
-    
+.nav {
+    width: 100%;
+    height: 15%;
 }
 
-header {
-    background-image: url(https://github.com/754Bree/Ip-week-4/blob/master/Images/Pizza%201st%20Background%20picture.jpg?raw=true);
-    height: 300px;
-    text-align: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
+.logo {
+    margin-right: 60%;
+    width: 60px;
+}
+
+.nav img {
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.nav ul li {
+    float: right;
+}
+
+.nav ul li a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: larger;
+    font-weight: 700;
+}
+
+.nav ul li a:hover {
     color: black;
-    border-style: solid goldenrod;
 }
-.h2 {
-   text-align: center;
+
+#formdiv,
+.confirmation,
+.view-four {
+    display: none;
 }
-.row {
-    display: flex;
-     
+
+#home {
+  background: url(../images/pizzapic.jpg);
+  background-size: cover;
+  height: 530px;
 }
- .column1 {
-    background-image: url(https://cdn.pixabay.com/photo/2020/03/21/02/26/pizza-4952508__340.jpg);
-    height: 630px;
-    width: fit-content;
-    color: goldenrod;
-    border-style: double;
+
+h2 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 50px;
+    padding-bottom: 10px;
+    color: white;
     text-align: center;
-    font-size: larger;
-    padding-right: 20px;
-    
- }
- .column2 {
-    background-image: url(https://cdn.pixabay.com/photo/2020/03/21/02/26/pizza-4952508__340.jpg);
-    color: goldenrod; 
-    height: 630px; 
-    width: fit-content;
-    float: inline-end; 
-    border-style:double;
-    text-align: center;
-    
-    
 }
-.column3 {
-    background-image: url(https://cdn.pixabay.com/photo/2019/12/08/06/52/basil-4680551__340.jpg);
-    color: goldenrod;
+
+ .button {
+    color: black;
     text-align: center;
-    font-size: larger;
+    font-size: 20px;
     padding-top: 50px;
-    background-size: contain;
-
+    font-weight: bold;
 }
 
-.row2 {
-    background-image: url(https://cdn.pixabay.com/photo/2018/03/07/18/42/menu-3206749_960_720.jpg);
-    text-align: center;
-    color: goldenrod;
-    font-size: x-large;
-    font-weight: 300;
-}
-
-.container-checkout {
-    text-align: center;
-    align-self: center;
-}
-.container-delivery {
-    text-align: center;
-    align-self: center;
-    padding: 10px;
-}
-.footer {
-    align-self: center;
-    text-align: center;
-    padding-top: 30px;
-}
-.container-fluid {
-    text-align: center;
-    padding: 30px;
-}
-/*.pizza-type {
-    display: flex;
-    max-height: fit-content;
-    width: 200px;
-}*/
-.order-placement {
+.confirm-order {
+    border: 3px solid #948473;
+    border-radius: 15px;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    width: 100%;
+    padding: 20px;
     text-align: center;
 }
-form {
-    display: flex;
-    text-align: center;
-    word-spacing: 5px;
-}
-.button {
-    padding-top: 30px;
+
+table, th, td {
+  border: 1px solid black;
 }
 
+.table-buttons {
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.button:hover {
+    color: black;
+}
+
+.conbutton{
+  padding: 5px;
+  margin: 6px;
+  align-content: center;
+  background-color: #A62D1C;
+  color: white;
+}
+
+#formdiv{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  display: none;
+}
+
+#form1{
+  color: white;
+  padding-top: 25px;
+  padding-bottom: 20px;
+  align-content: center;
+  text-align: center;
+  background-image: url(../images/papis2.jpg);
+
+}
+
+#footer{
+  text-align: center;
+  font-size: 17px;
+  padding-top: 20px;
+  background-color: #A62D1C;
+  color: white;
+}
+
+#rightbar{
+  padding-top: 100px;
+  align-content: center;
+  align-items: center;
+}
+
+.buyButton{
+  color: black;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.order-total {
+    display: none;
+}
 
 
 
@@ -113,10 +150,7 @@ form {
 
 
 
-/*header {
-    text-align: center;
-=======
-body {
+/*body {
     background-image: repeating-linear-gradient(goldenrod,grey);
 }
 .navbar {
@@ -208,7 +242,7 @@ header {
     display: flex;
     max-height: fit-content;
     width: 200px;
-}*/
+}
 .order-placement {
     text-align: center;
 }
@@ -222,7 +256,7 @@ form {
 }
 .contacts {
     text-align: center;
-}
+}*/
 
 
 
@@ -237,5 +271,4 @@ form {
 
 /*header {
     text-align: center;
->>>>>>> b11575386c14c1baa8591ffc376c7124f99ccc01
 }*/
