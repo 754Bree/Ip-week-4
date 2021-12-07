@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+# IP-WEEK-4
+
+## PROJECT TITLE : MOJITO'S PIZZA PALACE
+=======
 # MOJITO'S PIZZA PALACE
 
 ## Description
@@ -18,7 +23,7 @@
 
 ### Requirements
 
- <p>1. A stable internet connection.
+ <p>1. A stable internet connection.<br>
  2.A smartphone or computer or laptop.</P>
 
 ### Installation
@@ -50,3 +55,4 @@ During my time creating this project, I encountered a couple of challanges some 
 
 ### This project is licensed by <strong>MIT</strong>.
  
+>>>>>>> b11575386c14c1baa8591ffc376c7124f99ccc01
