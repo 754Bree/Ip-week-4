@@ -26,7 +26,7 @@
           <div class="col-md-5" id="rightbar">
             <h2>There's no pizza like Mojitos Pizza</h2>
             <div class="button">
-              <button onclick="" value="ORDER HERE" id="order-here" >
+              <input type="button" value="ORDER HERE" id="order-here" >
             </div>
           </div>
        </div>
@@ -34,106 +34,100 @@
     </div> 
    <div class="container-fluid" id="formdiv">
      <div class="row">
-       <div class="col-md-4">
-       </div>
- 
-       <div class="col-md-4" id="form1">
-        <form action="">
-          <h3>Order your favourite pizza here</h3>
-          <label for="select">Select Your Flavor</label>
-          <select class="browser-default custom-select custom-select-md mb-3" id="pizza">
-            <option value="Chicken Tikka">Chicken Tikka</option>
-            <option value="PeriPeri Pizza">PeriPeri Pizza</option>
-            <option value="Raspberry Dessert Pizza">Raspberry Dessert Pizza</option>
-            <option value="Chicken Alfredo Pizza">Chicken Alfredo Pizza</option>
-            <option value="Sunchoke Pizza">Sunchoke Pizza</option>
-            <option value="Buffalo Chicken Sticks">Buffalo Chicken Sticks</option>
-          </select>
-          <label for="select">Select Size</label>
-          <select class="browser-default custom-select custom-select-md mb-3" id="size">
-            <option selected value="0">Select size here</option>
-            <option value="large">Large -- sh. 1200</option>
-            <option value="medium">Medium -- sh. 850</option>
-            <option value="small">Small -- sh. 600</option>
-          </select>
-          <label for="crust">Choose your favorite Crust!</label>
-          <select class="browser-default custom-select custom-select-md mb-3" id="crust">
-            <option selected value="0">Select your preferred crust!</option>
-            <option value="Crispy">Crispy -- sh. 200</option>
-            <option value="Stuffed">Stuffed -- sh. 150</option>
-            <option value="Gluten-free">Gluten-free-- sh. 180</option>
-          </select>
-          <label for="Toppings">Select Your Toppings at sh. 50 each</label><br>
-          <div class="custom-control custom-checkbox custom-control-inline">
-            <input type="checkbox" class="custom-control-input" id="Sausage" value="Sausage" name="toppings">
-            <label class="custom-control-label" for="Sausage">Sausage</label>
-          </div>
-          <div class="custom-control custom-checkbox custom-control-inline">
-            <input type="checkbox" class="custom-control-input" id="Bacon" value="Bacon" name="toppings">
-            <label class="custom-control-label" for="Bacon">Bacon</label>
-          </div>
-          <div class="custom-control custom-checkbox custom-control-inline">
-            <input type="checkbox" class="custom-control-input" id="Mushrooms" value="Mushrooms" name="toppings">
-            <label class="custom-control-label" for="Mushrooms">Mushrooms</label>
-          </div>
-          <br><br>
-          <!-- <button type="submit" class="buyButton" id="next">NEXT</button> -->
-          <input type="submit" value="NEXT" class="buyButton" id="continue">
-          <div class="output"></div>
-        </form>
+        <div class="col-md-4" id="form1">
+          <form action="">
+            <h3>Order your favourite pizza here</h3>
+            <label for="select">Select Your Flavor</label>
+            <select class="browser-default custom-select custom-select-md mb-3" id="pizza">
+              <option value="Chicken Tikka">Chicken Tikka</option>
+              <option value="PeriPeri Pizza">PeriPeri Pizza</option>
+              <option value="Raspberry Dessert Pizza">Raspberry Dessert Pizza</option>
+              <option value="Chicken Alfredo Pizza">Chicken Alfredo Pizza</option>
+              <option value="Sunchoke Pizza">Sunchoke Pizza</option>
+              <option value="Buffalo Chicken Sticks">Buffalo Chicken Sticks</option>
+            </select>
+            <label for="select">Select Size</label>
+            <select class="browser-default custom-select custom-select-md mb-3" id="size">
+              <option selected value="0">Select size here</option>
+              <option value="large">Large -- sh. 1200</option>
+              <option value="medium">Medium -- sh. 850</option>
+              <option value="small">Small -- sh. 600</option>
+            </select>
+            <label for="crust">Choose your favorite Crust!</label>
+            <select class="browser-default custom-select custom-select-md mb-3" id="crust">
+              <option selected value="0">Select your preferred crust!</option>
+              <option value="Crispy">Crispy -- sh. 200</option>
+              <option value="Stuffed">Stuffed -- sh. 150</option>
+              <option value="Gluten-free">Gluten-free-- sh. 180</option>
+            </select>
+            <label for="Toppings">Select Your Toppings at sh. 50 each</label><br>
+            <div class="custom-control custom-checkbox custom-control-inline">
+              <input type="checkbox" class="custom-control-input" id="Sausage" value="Sausage" name="toppings">
+              <label class="custom-control-label" for="Sausage">Sausage</label>
+            </div>
+            <div class="custom-control custom-checkbox custom-control-inline">
+              <input type="checkbox" class="custom-control-input" id="Bacon" value="Bacon" name="toppings">
+              <label class="custom-control-label" for="Bacon">Bacon</label>
+            </div>
+            <div class="custom-control custom-checkbox custom-control-inline">
+              <input type="checkbox" class="custom-control-input" id="Mushrooms" value="Mushrooms" name="toppings">
+              <label class="custom-control-label" for="Mushrooms">Mushrooms</label>
+            </div>
+            <br><br>
+            <!-- <button type="submit" class="buyButton" id="next">NEXT</button> -->
+            <input type="submit" value="NEXT" class="buyButton" id="continue">
+          </form>
+        </div>  
       </div>
       <div class="col-md-4">
         <div class="confirmation">
-                    <h2>Confirm your order:</h2>
-                    <table class="confirm-order">
-                        <thead>
-                            <tr>
-                                <th><strong>NAME</strong></th>
-                                <th><strong>SIZE</strong></th>
-                                <th><strong>CRUST</strong></th>
-                                <th><strong>TOPPINGS</strong></th>
-                                <th><strong>TOTAL</strong></th>
-                            </tr>
-                        </thead>
-                        <tbody class="current-order">
-                            <tr>
-                                <td id="name"></td>
-                                <td id="size"></td>
-                                <td id="crust"></td>
-                                <td id="toppings"></td>
-                                <td id="total"></td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    <div class="table-buttons">
-                        <input type="button" value="DELIVERY" class="conbutton" id="delivery">
-                        <input type="button" value="PICK-UP" class="conbutton" id="pick-up">
-                         <input type="submit" value="ADD PIZZA" class="conbutton" id="add">
-                     </div>
-                 </div>
-
-                 <div class="view-four">
-                     <form id="form2" class="form" name="form2">
-                         <legend>Have your order delivered at Ksh. 200
-                         </legend>
-                         <label for="full-name">Full name</label>
-                         <input type="text" id="full-name" placeholder="Full name here">
-                         <div class="dad">
-                             <label for="telephone">Phone Number</label>
-                             <input type="tel" id="phone-number" placeholder="07** *** ***">
-                         </div>
-                         <div class="dad">
-                             <label for="address">Location</label>
-                             <input type="text" id="location" placeholder="Cap estate, Chuna Road-Kitengela">
-                          </div>
-                         <p>Or call us on: 0711438911</p>
-
-                        <input type="submit" value="CHECKOUT" class="conbutton" id="checkout">
-                     </form>
-                 </div>
-
-             </div>
-         </div>
+          <h2>Confirm your order:</h2>
+          <table class="confirm-order">
+            <thead>
+              <tr>
+                <th><strong>NAME</strong></th>
+                <th><strong>SIZE</strong></th>
+                <th><strong>CRUST</strong></th>
+                <th><strong>TOPPINGS</strong></th>
+                <th><strong>TOTAL</strong></th>
+              </tr>           
+            </thead>
+            <tbody class="current-order">
+              <tr>
+                <td id="name"></td>
+                <td id="size"></td>
+                <td id="crust"></td>
+                <td id="toppings"></td>
+                <td id="total"></td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="table-buttons">
+            <input type="button" value="DELIVERY" class="conbutton" id="delivery">
+            <input type="button" value="PICK-UP" class="conbutton" id="pick-up">
+            <input type="submit" value="ADD PIZZA" class="conbutton" id="add">
+          </div>
+        </div>
+        <div class="view-four">
+          <form id="form2" class="form" name="form2">
+            <legend>
+              Have your order delivered at Ksh. 200
+            </legend>
+            <label for="full-name">Full name</label>
+            <input type="text" id="full-name" placeholder="Full name here">
+            <div class="dad">
+              <label for="telephone">Phone Number</label>
+              <input type="tel" id="phone-number" placeholder="07** *** ***">
+            </div>
+            <div class="dad">
+              <label for="address">Location</label>
+              <input type="text" id="location" placeholder="Cap estate, Chuna Road-Kitengela">
+            </div>
+              <p>Or call us on: 0711438911</p>
+            <input type="submit" value="CHECKOUT" class="conbutton" id="checkout">
+          </form>
+        </div>
+      </div>
      </div>
     </div> 
     <div class="row">
