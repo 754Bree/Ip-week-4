@@ -18,7 +18,7 @@
 
 ### Requirements
 
- <p>1. A stable internet connection.
+ <p>1. A stable internet connection.<br>
  2.A smartphone or computer or laptop.</P>
 
 ### Installation
