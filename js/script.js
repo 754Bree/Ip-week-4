@@ -64,7 +64,7 @@ var price = function (pizzaSize, pizzaCrust, pizzaTopping) {
 //order-here button
 $(document).ready(function () {
     $("#order-here").click(function () {
-        $("#formdiv").toogle();
+        $("#formdiv").show();
         // $(".button1").hide();
     })
 
