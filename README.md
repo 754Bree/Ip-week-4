@@ -1,13 +1,12 @@
-<<<<<<< HEAD
-# IP-WEEK-4
-
-## PROJECT TITLE : MOJITO'S PIZZA PALACE
-=======
 # MOJITO'S PIZZA PALACE
 
 ## Description
 
 ### Mojito's Pizza Palace is a page that enables you to order Pizza from Mojito's palace at the comfort of your home or workplace.
+
+## LANGUAGES USED:
+### 1. HTML<br>2.CSS<br>3. JavaScript
+
 
 ## Author : Briana Odhiambo
 
@@ -55,4 +54,3 @@ During my time creating this project, I encountered a couple of challanges some 
 
 ### This project is licensed by <strong>MIT</strong>.
  
->>>>>>> b11575386c14c1baa8591ffc376c7124f99ccc01
